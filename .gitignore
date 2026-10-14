@@ -1,0 +1,38 @@
+# Original/proprietary inputs and generated Android packages
+*.apk
+*.apks
+*.aab
+*.dex
+*.so
+*.keystore
+!releases/
+!releases/*.apk
+
+# Decompiled or extracted game data
+input/
+output/
+decompiled/
+extracted/
+assets/
+
+# Local Android toolchains and emulator state
+sdk/
+avd/
+cache/
+android16-port/tools/*.jar
+
+# Build products and caches
+build/
+windows-port/build/
+__pycache__/
+*.py[cod]
+*.obj
+*.o
+*.exe
+*.dll
+
+# Local runtime captures and saves
+*.bmp
+*.log
+*.ini
+opengl-runtime.txt
